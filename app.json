@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "FabiosLanches",
-    "slug": "FabiosLanches",
+    "slug": "apppedidos",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fabioslanches.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1841b2fe-0678-42cb-a2ac-400ff0e89516"
+      }
+    },
+    "owner": "victor.pereira"
   }
 }
